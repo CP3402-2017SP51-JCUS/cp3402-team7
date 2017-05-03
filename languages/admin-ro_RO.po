@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.7.x - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-11 15:03:01+0000\n"
+"PO-Revision-Date: 2017-04-15 14:53:36+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2430,10 +2430,6 @@ msgstr "Instalează Publică-asta"
 msgid "Open Press This"
 msgstr "Deschide Publică-asta"
 
-#: wp-admin/tools.php:68
-msgid "Follow the link to open Press This. Then add it to your device&#8217;s bookmarks or home screen."
-msgstr "Urmărește legătura pentru a deschide Publică-asta. Apoi adaug-o la lista ta de semne de carte/marcaje din ecranul principal."
-
 #: wp-admin/includes/template.php:2126
 msgid "You are currently editing the page that shows your latest posts."
 msgstr "Acum editezi chiar pagina ce arată ultimele tale articole."
@@ -2526,6 +2522,10 @@ msgstr ""
 "Mulțumiri pentru utilizarea sitului,\n"
 "Administrator\n"
 "###SITE_NAME###"
+
+#: wp-admin/tools.php:68
+msgid "Follow the link to open Press This. Then add it to your device&#8217;s bookmarks or home screen."
+msgstr "Urmărește legătura pentru a deschide Publică-asta. Apoi adaug-o în semnele de carte ale dispozitivului tău sau în ecranul primei pagini."
 
 #. translators: Do not translate USERNAME, ADMIN_URL, EMAIL, SITENAME, SITEURL:
 #. those are placeholders.
@@ -2662,10 +2662,6 @@ msgstr "Introdu un URL pentru scanare"
 msgid "Error while adding the category. Please try again later."
 msgstr "Eroare în timpul adăugării categoriei. Te rog încearcă din nou mai târziu."
 
-#: wp-admin/includes/class-wp-press-this.php:887
-msgid "Toggle add category"
-msgstr "+ Adaugă o categorie nouă"
-
 #: wp-admin/includes/class-wp-press-this.php:1416
 msgid "Suggested media"
 msgstr "Recomandare media"
@@ -2713,6 +2709,10 @@ msgstr "Arată opțiuni articol"
 #: wp-admin/includes/ms.php:519
 msgid "Site Upload Space Quota"
 msgstr "Cota de spațiu pentru încărcare pentru sit"
+
+#: wp-admin/includes/class-wp-press-this.php:887
+msgid "Toggle add category"
+msgstr "Comută la adaugă categorie"
 
 #: wp-admin/includes/class-wp-posts-list-table.php:981
 msgid "Y/m/d g:i:s a"
@@ -2930,7 +2930,7 @@ msgstr "Poți vedea elementele media într-o grilă vizuală simplă sau într-o
 
 #: wp-admin/upload.php:52
 msgid "To delete media items, click the Bulk Select button at the top of the screen. Select any items you wish to delete, then click the Delete Selected button. Clicking the Cancel Selection button takes you back to viewing your media."
-msgstr "Pentru a șterge elemente media, dă clic pe butonul de Selecție în masă din partea de sus a ecranului. Selectează oricare din elementele pe care vrei să le ștergi, apoi dă clic pe butonul Șterge selectate. Dând clic pe butonul de Anulează selecția revii la vizualizarea media."
+msgstr "Pentru a șterge elemente media, dă clic pe butonul Selectare în masă din partea de sus a ecranului. Selectează oricare din elementele pe care vrei să le ștergi, apoi dă clic pe butonul Șterge selectate. Dând clic pe butonul Anulează selecția revii la vizualizarea media."
 
 #: wp-admin/upload.php:50
 msgid "All the files you&#8217;ve uploaded are listed in the Media Library, with the most recent uploads listed first."
@@ -4213,7 +4213,7 @@ msgstr "Fiecare meniu personalizat poate conține un amestec de legături la pag
 
 #: wp-admin/nav-menus.php:533
 msgid "The menu management box at the top of the screen is used to control which menu is opened in the editor below."
-msgstr "Caseta de administrare meniuri din partea de sus a ecranului se folosește pentru a controla care meniu se deschide editorul de mai jos."
+msgstr "Caseta de administrare meniuri din partea de sus a ecranului se folosește pentru a controla care meniu este deschis în editorul de mai jos."
 
 #: wp-admin/includes/revision.php:383
 msgid "Restore This Revision"
@@ -4720,11 +4720,11 @@ msgstr "Selectare comentariu"
 
 #: wp-admin/edit-form-advanced.php:387
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. This screen also has the distraction-free writing space, available in both the Visual and Text modes via the Fullscreen buttons. The Page editor mostly works the same as the Post editor, but there are some Page-specific features in the Page Attributes box."
-msgstr "Crearea unei pagini este foarte asemănătoare cu crearea unui articol, iar ecranele de editare se pot personaliza în același fel prin tragere și plasare, utilizând fila de Opțiuni ecran și prin extinderea/restrângerea casetelor după dorință. Există de asemenea și modul de editare fără distragerea atenției, disponibil atât pentru editor în mod Text, cât și Vizual prin butoanele de Ecran complet. Editorul de pagini funcționează în același fel ca și cel pentru articole, dar există câteva funcții specifice paginilor în caseta de Atribute pagină."
+msgstr "Crearea unei pagini este foarte asemănătoare cu crearea unui articol și ecranele pot fi personalizate în același fel folosind trage și plasează, fila opțiuni ecran și casetele extindere/restrângere, după dorință. Acest ecran are, de asemenea, spațiu de scriere fără distragerea atenției disponibil atât pentru modul vizual cât și pentru cel text, prin butoanele ecran complet. Editorul de pagină funcționează în mare parte la fel ca editorul de articol, dar există câteva funcționalități specifice paginilor în caseta atribute pagină."
 
 #: wp-admin/custom-header.php:110
 msgid "You can set a custom image header for your site. Simply upload the image and crop it, and the new header will go live immediately. Alternatively, you can use an image that has already been uploaded to your Media Library by clicking the &#8220;Choose Image&#8221; button."
-msgstr "Poți seta o imagine de antet personalizată pentru sitului tău. Doar încarcă imaginea și decupeaz-o și noul antet va fi live imediat. Alternativ, poți folosi o imagine care a fost deja încărcată în biblioteca ta media dând clic pe butonul &#8222;Alege imagine&#8221;"
+msgstr "Poți seta o imagine de antet personalizată pentru situl tău. Doar încarcă imaginea și decupeaz-o și noul antet va fi live imediat. Alternativ, poți folosi o imagine care a fost deja încărcată în biblioteca ta media dând clic pe butonul &#8222;Alege imagine&#8221;"
 
 #: wp-admin/custom-header.php:826
 msgid "Skip Cropping, Publish Image as Is"
@@ -5059,7 +5059,7 @@ msgstr "Acesta nu este doar un modul, simbolizează speranța și entuziasmul un
 
 #: wp-admin/index.php:85
 msgid "<strong>Welcome</strong> &mdash; Shows links for some of the most common tasks when setting up a new site."
-msgstr "<strong>Bun venit</strong> &mdash; Afișează un mesaj de întâmpinare și o serie de legături spre cele mai uzuale acțiuni la setarea unui sit nou."
+msgstr "<strong>Bine ai venit</strong> &mdash; Arată legături pentru unele dintre cele mai uzuale acțiuni când inițializezi un sit nou."
 
 #. translators: 1: month number (01, 02, etc.), 2: month abbreviation
 #: wp-admin/includes/template.php:720
@@ -5104,13 +5104,13 @@ msgstr "Ține minte, odată șters situl tău nu mai poate fi restaurat."
 msgid "I'm sure I want to permanently disable my site, and I am aware I can never get it back or use %s again."
 msgstr "Sunt sigur că vreau să-mi dezactivez definitiv situl și sunt conștient că nu-l voi mai putea recupera vreodată sau folosi %s din nou."
 
-#: wp-admin/ms-delete-site.php:84
-msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
-msgstr "Mulțumiri. Te rog verifică adresa ta de email după o legătură pentru a confirma acțiunea ta. Situl tău nu va fi șters până ce nu va fi acționată legătura respectivă. "
-
 #: wp-admin/ms-delete-site.php:21
 msgid "Thank you for using %s, your site has been deleted. Happy trails to you until we meet again."
 msgstr "Îți mulțumim că folosești %s, situl tău a fost șters. Drum bun până când ne vom întâlni din nou."
+
+#: wp-admin/ms-delete-site.php:84
+msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked."
+msgstr "Îți mulțumesc. Te rog verifică-ți emailul pentru o legătură care să-ți confirme acțiunea. Situl tău nu va fi șters până când nu dai clic pe acea legătura."
 
 #. translators: 1: Required disk space in kilobytes
 #: wp-admin/includes/ms.php:33
@@ -5703,7 +5703,7 @@ msgstr "Trecerea peste un rând arăta legături de acțiune: Editează, Șterge
 
 #: wp-admin/edit-comments.php:165
 msgid "You can manage comments made on your site similar to the way you manage posts and other content. This screen is customizable in the same ways as other management screens, and you can act on comments using the on-hover action links or the Bulk Actions."
-msgstr "Poți administra comentariile făcute pe situl tău similar cu modul în care îți administrezi articolele și alte tipuri de conținut. Acest ecran este personalizabil în același fel ca alte ecrane de administrare și poți acționa asupra comentariilor  folosind legăturile de acțiune de trecere peste și acțiunile în masă."
+msgstr "Poți administra comentariile făcute pe situl tău similar cu modul în care îți administrezi articolele și alte tipuri de conținut. Acest ecran este personalizabil în același fel ca alte ecrane de administrare și poți acționa asupra comentariilor  folosind legăturile de acțiune la trecerea peste și acțiunile în masă."
 
 #: wp-admin/link-manager.php:54
 msgid "Links may be separated into Link Categories; these are different than the categories used on your posts."
@@ -6831,7 +6831,7 @@ msgstr "Majoritatea temelor afișează titlul sitului în partea de sus a fiecă
 
 #: wp-admin/edit-form-advanced.php:464
 msgid "<strong>Order</strong> &mdash; Pages are usually ordered alphabetically, but you can choose your own order by entering a number (1 for first, etc.) in this field."
-msgstr "<strong>Ordonare</strong> &mdash; Paginile sunt de obicei ordonate alfabetic, însă mai jos se poate specifica un număr de ordine în acest câmp pentru a modifica ordinea în care acestea apar (1 pentru prima, 2 pentru a doua etc.)."
+msgstr "<strong>Ordine</strong> &mdash; Paginile sunt de obicei ordonate alfabetic, dar poți să-ți alegi ordinea proprie prin introducerea unui număr (1 pentru prima, etc.) în acest câmp."
 
 #: wp-admin/includes/file.php:1193
 msgid "Please enter your FTP or SSH credentials to proceed."

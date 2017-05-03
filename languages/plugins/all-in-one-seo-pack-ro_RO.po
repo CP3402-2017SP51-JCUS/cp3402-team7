@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-04-07 07:00:18+0000\n"
+"PO-Revision-Date: 2017-04-23 16:34:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,7 +11,56 @@ msgstr ""
 "Language: ro\n"
 "Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
 
-#: admin/aioseop_module_class.php:2560
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.3.12.5) 
+#. #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  all-in-one-seo-pack-code.pot (All In One SEO Pack 2.3.12.5) 
+#. #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
+msgstr "https://semperplugins.com/all-in-one-seo-pack-pro-version/"
+
+#: modules/aioseop_importer_exporter.php:47
+msgid "Post Data"
+msgstr "Dată articol"
+
+#: aioseop_class.php:487
+msgid "Nothing found for %request_words%"
+msgstr "N-am găsit nimic pentru %request_words%"
+
+#: admin/display/general-metaboxes.php:170
+msgid "Access to Knowledge Center"
+msgstr "Acces la centrul de cunoștințe"
+
+#: admin/display/general-metaboxes.php:169
+msgid "Access to Premium Support Forums"
+msgstr "Acces la forumurile pentru suport premium"
+
+#: admin/display/general-metaboxes.php:167
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "SEO pentru categorii, etichete și taxonomii personalizate"
+
+#: admin/display/general-metaboxes.php:166
+msgid "Video SEO Module"
+msgstr "Extensie SEO video"
+
+#: admin/display/general-metaboxes.php:163
+msgid "Advanced support for e-commerce"
+msgstr "Suport avansat pentru e-commerce"
+
+#: admin/display/general-metaboxes.php:161
+msgid "Advanced support for WooCommerce"
+msgstr "Suport avansat pentru WooCommerce"
+
+#: admin/display/general-metaboxes.php:115
+msgid "Subscribe"
+msgstr "Abonează-te"
+
+#: admin/display/general-metaboxes.php:114
+msgid "Email Address"
+msgstr "Adresă de email"
+
+#: admin/aioseop_module_class.php:2568
 msgid "Reset %s Settings to Defaults"
 msgstr "Resetează setările %s la implicite"
 
@@ -32,7 +81,7 @@ msgstr "Această opțiune va genera automat URL-uri Canonice pentru întreaga in
 msgid "CLICK HERE"
 msgstr "DĂ CLIC AICI"
 
-#: modules/aioseop_sitemap.php:989
+#: modules/aioseop_sitemap.php:993
 msgid "Removed empty file %s."
 msgstr "Fișierul gol %s îndepărtat."
 
@@ -44,15 +93,15 @@ msgstr "Asta afișează o piesă Știri SEO pe panoul de control."
 msgid "Show SEO News"
 msgstr "Arată știri SEO"
 
-#: modules/aioseop_sitemap.php:622
+#: modules/aioseop_sitemap.php:626
 msgid " and changes are automatically submitted to search engines."
 msgstr "și modificările sunt trimise automat la motoarele de căutare."
 
-#: modules/aioseop_sitemap.php:620
+#: modules/aioseop_sitemap.php:624
 msgid " Your sitemap has been created"
 msgstr "Harta ta sit a fost creată"
 
-#: modules/aioseop_sitemap.php:619
+#: modules/aioseop_sitemap.php:623
 msgid "Click here to %s."
 msgstr "Dă clic aici pentru %s."
 
@@ -152,13 +201,9 @@ msgstr "Există mai multe modalități prin care poți ajuta suportul pentru All
 msgid "Support All in One SEO Pack"
 msgstr "Suport pentru All in One SEO Pack"
 
-#: admin/display/credits-content.php:61
+#: admin/display/credits-content.php:62
 msgid "Translation contributors and translation editors"
 msgstr "Contributori traducere și editori traducere"
-
-#: admin/display/credits-content.php:40
-msgid "Want to see your name and picture here as a community developer? Open a new issue on Github to report a bug or request a feature or find an issue and submit code!"
-msgstr "Vrei să-ți vezi numele și poza aici ca dezvoltator al comunității? Deschide o nouă problemă pe Github pentru a raporta o eroare ori solicită o funcționalitate sau găsește o problemă și trimite codul!"
 
 #: admin/display/credits-content.php:38
 msgid "Recent Rockstar Contributors"
@@ -205,11 +250,11 @@ msgstr "Redirecționează atașamente la articolul părinte:"
 msgid "Redirect attachment pages to post parent."
 msgstr "Redirecționează pagini de atașamente la articolul părinte."
 
-#: modules/aioseop_sitemap.php:53
+#: modules/aioseop_sitemap.php:54
 msgid "Dynamically creates the XML sitemap instead of using a static file."
 msgstr "Creează o hartă sit dinamică în loc de a folosi un fișier static."
 
-#: modules/aioseop_importer_exporter.php:551
+#: modules/aioseop_importer_exporter.php:553
 msgid "<b>Security warning:</b> Your file looks compromised. Please check the file for any script-injection."
 msgstr "<b>Avertizare de securitate:</b> Fișierul tău pare compromis. Te rog verifică-ți fișierul pentru vreo injectare de script."
 
@@ -336,6 +381,10 @@ msgstr "%s Actualizează%s la All in One SEO Pack Pro pentru o compatibilitate S
 #: aioseop_class.php:3654
 msgid "We've detected you're running WooCommerce."
 msgstr "Am detectat că folosești WooCommerce."
+
+#. Description of the plugin/theme
+msgid "Out-of-the-box SEO for your WordPress blog. Features like XML Sitemaps, SEO for custom post types, SEO for blogs or business sites, SEO for ecommerce sites, and much more. More than 30 million downloads since 2007."
+msgstr "SEO este gata de funcționare pentru blogul tău WordPress. Funcționalități cum ar fi hărți sit XML, SEO pentru tipuri de articol personalizat, SEO pentru bloguri sau situri de afaceri, SEO pentru situri ecommerce și multe altele. Mai mult de 30 de milioane de descărcări din anul 2007."
 
 #: modules/aioseop_performance.php:318
 msgid "Check For Updates"
@@ -509,351 +558,351 @@ msgstr "Michael Torbert"
 msgid "All In One SEO Pack"
 msgstr "All In One SEO Pack"
 
-#: modules/aioseop_sitemap.php:1321
+#: modules/aioseop_sitemap.php:1330
 msgid "Failed to notify %s about changes to your sitemap at %s, unable to access via wp_remote_get()."
 msgstr "Nu a reușit să notifice% s despre modificările aduse sitemap-ului la% s, imposibilitatea de a accesa prin wp_remote_get ()."
 
-#: modules/aioseop_sitemap.php:1318
+#: modules/aioseop_sitemap.php:1327
 msgid "Failed to notify %s about changes to your sitemap at %s, error code %s."
 msgstr "Nu a reușit să notifice% s despre modificările aduse sitemap-ului la% s, codul de eroare% s."
 
-#: modules/aioseop_sitemap.php:1150
+#: modules/aioseop_sitemap.php:1154
 msgid "static"
 msgstr "static"
 
-#: modules/aioseop_sitemap.php:1155
+#: modules/aioseop_sitemap.php:1159
 msgid "dynamic"
 msgstr "dinamic"
 
-#: modules/aioseop_sitemap.php:1152
+#: modules/aioseop_sitemap.php:1156
 msgid "compressed"
 msgstr "comprimat"
 
-#: modules/aioseop_sitemap.php:1026
+#: modules/aioseop_sitemap.php:1030
 msgid "Delete Conflicting Files"
 msgstr "Sterge fisierele conflictuale"
 
-#: modules/aioseop_sitemap.php:1025
+#: modules/aioseop_sitemap.php:1029
 msgid "Rename Conflicting Files"
 msgstr "Redenumeste fisiere conflictuale"
 
-#: modules/aioseop_sitemap.php:985
+#: modules/aioseop_sitemap.php:989
 msgid "Potential conflict with unknown file %s."
 msgstr "Potențial conflict cu fișier necunoscut% s."
 
-#: modules/aioseop_sitemap.php:980
+#: modules/aioseop_sitemap.php:984
 msgid "Warning: a static sitemap '%s' generated by All in One SEO Pack %s on %s already exists that may conflict with dynamic sitemap generation."
 msgstr "Avertisment : un sitemap static %s  generat de All in One SEO Pack %s pe %s exista deja si poate intra in conflict cu  sitemap-ul generat dinamic."
 
-#: modules/aioseop_sitemap.php:901
+#: modules/aioseop_sitemap.php:905
 msgid "Couldn't find file %s!"
 msgstr "Nu s-a putut gasi fisiereul %!"
 
-#: modules/aioseop_sitemap.php:897
+#: modules/aioseop_sitemap.php:901
 msgid "Renamed %s to %s."
 msgstr "Redenumeste % cu %"
 
-#: modules/aioseop_sitemap.php:893
+#: modules/aioseop_sitemap.php:897
 msgid "Couldn't rename file %s!"
 msgstr "Nu s-a reusit redenumirea fisierului %"
 
-#: modules/aioseop_sitemap.php:883
+#: modules/aioseop_sitemap.php:887
 msgid "Deleted %s."
 msgstr "% Sters"
 
-#: modules/aioseop_sitemap.php:866
+#: modules/aioseop_sitemap.php:870
 msgid "Warning: dynamic sitemap generation must have permalinks enabled."
 msgstr "Atentie:  generarea sitemap-ului dinamic trebuie sa aiba permalinks-urile activate."
 
-#: modules/aioseop_sitemap.php:643
+#: modules/aioseop_sitemap.php:647
 msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your blog."
 msgstr "Atenție: setările de confidențialitate sunt configurate pentru a cere motoarele de căutare pentru sa nu indexeze site-ul dvs.; puteți schimba aceste setari sub% pentru blog-ul dvs."
 
-#: modules/aioseop_sitemap.php:641
+#: modules/aioseop_sitemap.php:645
 msgid "Privacy Settings"
 msgstr "Setări de confidențialitate"
 
-#: modules/aioseop_sitemap.php:639
+#: modules/aioseop_sitemap.php:643
 msgid "Reading Settings"
 msgstr "Setări de lectură"
 
-#: modules/aioseop_sitemap.php:633
+#: modules/aioseop_sitemap.php:637
 msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
 msgstr "Generarea dinamica a hartii site-ului pare sa nu utilizeze corect regulile de rescriere; va rugam sa dezactivati orice alt plugin sau functionalitate pentru harta site-ului dvs si resetati permalinks-urile."
 
-#: modules/aioseop_sitemap.php:619
+#: modules/aioseop_sitemap.php:623
 msgid "view your sitemap"
 msgstr "vezi harta site-ului dvs."
 
-#: modules/aioseop_sitemap.php:558
+#: modules/aioseop_sitemap.php:559
 msgid "Update Sitemap"
 msgstr "Actualizare Harta site-ului"
 
-#: modules/aioseop_sitemap.php:481
+#: modules/aioseop_sitemap.php:482
 msgid " Taxonomy"
 msgstr "Taxonomie"
 
-#: modules/aioseop_sitemap.php:480
+#: modules/aioseop_sitemap.php:481
 msgid " Post Type"
 msgstr "Tipul postarii"
 
-#: modules/aioseop_sitemap.php:479
+#: modules/aioseop_sitemap.php:480
 msgid "Manually set the frequency for the "
 msgstr "Setați manual frecvența"
 
-#: modules/aioseop_sitemap.php:478
+#: modules/aioseop_sitemap.php:479
 msgid "Manually set the priority for the "
 msgstr "Setați manual prioritate pentru"
 
-#: modules/aioseop_sitemap.php:474
+#: modules/aioseop_sitemap.php:475
 msgid "All Taxonomies"
 msgstr "Toate taxonomiile"
 
-#: modules/aioseop_sitemap.php:473
+#: modules/aioseop_sitemap.php:474
 msgid "All Post Types"
 msgstr "Toate tipurile postarilor"
 
-#: modules/aioseop_sitemap.php:471
+#: modules/aioseop_sitemap.php:472
 msgid "Media / Attachments"
 msgstr "Media / Atasamente"
 
-#: modules/aioseop_sitemap.php:385
+#: modules/aioseop_sitemap.php:386
 msgid "Daily scheduled sitemap check has finished."
 msgstr "Verificarea hărții sit programată zilnic a fost finalizată."
 
-#: modules/aioseop_sitemap.php:362
+#: modules/aioseop_sitemap.php:363
 msgid "Once Monthly"
 msgstr "O dată pe lună"
 
-#: modules/aioseop_sitemap.php:358
+#: modules/aioseop_sitemap.php:359
 msgid "Once Weekly"
 msgstr "O dată pe săptămână"
 
-#: modules/aioseop_sitemap.php:287
+#: modules/aioseop_sitemap.php:288
 msgid "Frequencies"
 msgstr "Frecventa"
 
-#: modules/aioseop_sitemap.php:281
+#: modules/aioseop_sitemap.php:282
 msgid "Priorities"
 msgstr "Prioritati"
 
-#: modules/aioseop_sitemap.php:275
+#: modules/aioseop_sitemap.php:276
 msgid "Excluded Items"
 msgstr "Iteme excluse"
 
-#: modules/aioseop_sitemap.php:265
+#: modules/aioseop_sitemap.php:266
 msgid "Excluded Pages"
 msgstr "Pagini excluse"
 
-#: modules/aioseop_sitemap.php:261
+#: modules/aioseop_sitemap.php:262
 msgid "Excluded Categories"
 msgstr "Categorii excluse"
 
-#: modules/aioseop_sitemap.php:251
+#: modules/aioseop_sitemap.php:252
 msgid "Add URL"
 msgstr "Adauga URL"
 
-#: modules/aioseop_sitemap.php:244 modules/aioseop_sitemap.php:269
+#: modules/aioseop_sitemap.php:245 modules/aioseop_sitemap.php:270
 msgid "Additional Pages"
 msgstr "Pagini aditionale"
 
-#: modules/aioseop_sitemap.php:238
+#: modules/aioseop_sitemap.php:239
 msgid "Last Modified"
 msgstr "Ultima modificare"
 
-#: modules/aioseop_sitemap.php:231
+#: modules/aioseop_sitemap.php:232
 msgid "Page Frequency"
 msgstr "Frecventa paginii"
 
-#: modules/aioseop_sitemap.php:224
+#: modules/aioseop_sitemap.php:225
 msgid "Page Priority"
 msgstr "Prioritatea paginii"
 
-#: modules/aioseop_sitemap.php:218
+#: modules/aioseop_sitemap.php:219
 msgid "Page URL"
 msgstr "URL pagină"
 
-#: modules/aioseop_sitemap.php:212
+#: modules/aioseop_sitemap.php:213
 msgid "Enter information below for any additional links for your sitemap not already managed through WordPress."
 msgstr "Introduceți informațiile de mai jos pentru orice link-uri suplimentare pentru sitemap-ul dvs. care nu sunt inca gestionate prin WordPress."
 
-#: modules/aioseop_sitemap.php:198
+#: modules/aioseop_sitemap.php:199
 msgid "Manually set the %s of your %s."
 msgstr "Setati manual s% din% s dvs.."
 
-#: modules/aioseop_sitemap.php:186
+#: modules/aioseop_sitemap.php:187
 msgid "author pages"
 msgstr "Paginile autorului"
 
-#: modules/aioseop_sitemap.php:185
+#: modules/aioseop_sitemap.php:186
 msgid "archive pages"
 msgstr "pagini arhivă"
 
-#: modules/aioseop_sitemap.php:184
+#: modules/aioseop_sitemap.php:185
 msgid "taxonomies"
 msgstr "taxonomii"
 
-#: modules/aioseop_sitemap.php:183
+#: modules/aioseop_sitemap.php:184
 msgid "posts"
 msgstr "articole"
 
-#: modules/aioseop_sitemap.php:182
+#: modules/aioseop_sitemap.php:183
 msgid "homepage"
 msgstr "prima pagină"
 
-#: modules/aioseop_sitemap.php:175
+#: modules/aioseop_sitemap.php:176
 msgid "frequency"
 msgstr "frecventa "
 
-#: modules/aioseop_sitemap.php:174
+#: modules/aioseop_sitemap.php:175
 msgid "priority"
 msgstr "prioritate"
 
-#: modules/aioseop_sitemap.php:161
+#: modules/aioseop_sitemap.php:162
 msgid "Select Individual"
 msgstr "Selectați individual"
 
-#: modules/aioseop_sitemap.php:160
+#: modules/aioseop_sitemap.php:161
 msgid "Do Not Override"
 msgstr "Nu suprasolicitați"
 
-#: modules/aioseop_sitemap.php:144
+#: modules/aioseop_sitemap.php:145
 msgid "Sitemap Status"
 msgstr "Stare Harta site-ului"
 
-#: modules/aioseop_sitemap.php:133
+#: modules/aioseop_sitemap.php:134
 msgid "Dynamically Generate Sitemap"
 msgstr "Genereaza harta site-ului dinamic"
 
-#: modules/aioseop_sitemap.php:129
+#: modules/aioseop_sitemap.php:130
 msgid "Link From Virtual Robots.txt"
 msgstr "Link de la Roboti.txt virtual"
 
-#: modules/aioseop_sitemap.php:125
+#: modules/aioseop_sitemap.php:126
 msgid "Create Compressed Sitemap"
 msgstr "Creaaza harta site-ului comprimat"
 
-#: modules/aioseop_sitemap.php:123
+#: modules/aioseop_sitemap.php:124
 msgid "Include Author Pages"
 msgstr "Include pagini autor"
 
-#: modules/aioseop_sitemap.php:122
+#: modules/aioseop_sitemap.php:123
 msgid "Include Date Archive Pages"
 msgstr "Include data paginilor arhivate"
 
-#: modules/aioseop_sitemap.php:118
+#: modules/aioseop_sitemap.php:119
 msgid "Taxonomies"
 msgstr "taxonomii"
 
-#: modules/aioseop_sitemap.php:113
+#: modules/aioseop_sitemap.php:114
 msgid "Post Types"
 msgstr "Tipuri de articol"
 
-#: modules/aioseop_sitemap.php:107
+#: modules/aioseop_sitemap.php:108
 msgid "Maximum Posts Per Sitemap"
 msgstr "Postari maxime pe Harta site-ului"
 
-#: modules/aioseop_sitemap.php:103
+#: modules/aioseop_sitemap.php:104
 msgid "Paginate Sitemap Indexes"
 msgstr "Numeroteaza indexarile sitemap-ilui"
 
-#: modules/aioseop_sitemap.php:101
+#: modules/aioseop_sitemap.php:102
 msgid "Enable Sitemap Indexes"
 msgstr "Activati indexarile sitemap-ului"
 
-#: modules/aioseop_sitemap.php:97
+#: modules/aioseop_sitemap.php:98
 msgid "Monthly"
 msgstr "Lunar"
 
-#: modules/aioseop_sitemap.php:96
+#: modules/aioseop_sitemap.php:97
 msgid "Weekly"
 msgstr "Săptămânal"
 
-#: modules/aioseop_sitemap.php:95
+#: modules/aioseop_sitemap.php:96
 msgid "Daily"
 msgstr "Zilnic"
 
-#: modules/aioseop_sitemap.php:94
+#: modules/aioseop_sitemap.php:95
 msgid "No Schedule"
 msgstr "Nicio programă"
 
-#: modules/aioseop_sitemap.php:91
+#: modules/aioseop_sitemap.php:92
 msgid "Schedule Updates"
 msgstr "Programați actualizările"
 
-#: modules/aioseop_sitemap.php:85
+#: modules/aioseop_sitemap.php:86
 msgid "Filename Prefix"
 msgstr "Prefix Nume-fisier"
 
-#: modules/aioseop_sitemap.php:59
+#: modules/aioseop_sitemap.php:60
 msgid "Use page slugs or page IDs, seperated by commas, to exclude pages from the sitemap."
 msgstr "Utilizați pagina slug sau ID-uri de pagini, separate prin virgula, pentru a exclude pagini din sitemap."
 
-#: modules/aioseop_sitemap.php:58
+#: modules/aioseop_sitemap.php:59
 msgid "Entries from these categories will be excluded from the sitemap."
 msgstr "Intrările din aceste categorii vor fi excluse din sitemap."
 
-#: modules/aioseop_sitemap.php:57
+#: modules/aioseop_sitemap.php:58
 msgid "Last modified date of the page."
 msgstr "Ultima dată modificată a paginii."
 
-#: modules/aioseop_sitemap.php:56
+#: modules/aioseop_sitemap.php:57
 msgid "The frequency of the page."
 msgstr "Frecventa paginii."
 
-#: modules/aioseop_sitemap.php:55
+#: modules/aioseop_sitemap.php:56
 msgid "The priority of the page."
 msgstr "Prioritatea paginii."
 
-#: modules/aioseop_sitemap.php:54
+#: modules/aioseop_sitemap.php:55
 msgid "URL to the page."
 msgstr "URL-ul catre pagina."
 
-#: modules/aioseop_sitemap.php:52
+#: modules/aioseop_sitemap.php:53
 msgid "Places a link to your Sitemap.xml into your virtual Robots.txt file."
 msgstr "Plasează un link către sitemap.xml dumneavoastră în fișierul robots.txt virtual."
 
-#: modules/aioseop_sitemap.php:51
+#: modules/aioseop_sitemap.php:52
 msgid "Create a compressed sitemap file in .xml.gz format."
 msgstr "Creați un fișier sitemap comprimat în format .xml.gz."
 
-#: modules/aioseop_sitemap.php:50
+#: modules/aioseop_sitemap.php:51
 msgid "Include Author Archives in your sitemap."
 msgstr "includeți Arhivele Autor in sitemap-ul dvs."
 
-#: modules/aioseop_sitemap.php:49
+#: modules/aioseop_sitemap.php:50
 msgid "Include Date Archives in your sitemap."
 msgstr "Includeti Arhive Date in harta site-ului dvs."
 
-#: modules/aioseop_sitemap.php:48
+#: modules/aioseop_sitemap.php:49
 msgid "Select which taxonomy archives appear in your sitemap"
 msgstr "Selectati care arhive taxonomy apar in harta site-ului dvs."
 
-#: modules/aioseop_sitemap.php:47
+#: modules/aioseop_sitemap.php:48
 msgid "Select which Post Types appear in your sitemap."
 msgstr "Selectati ce tipuri de postari apar in harta site-ului dvs."
 
-#: modules/aioseop_sitemap.php:46
+#: modules/aioseop_sitemap.php:47
 msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
 msgstr "Permite specificarea numărului maxim de posturi într-un sitemap (până la 50.000)."
 
-#: modules/aioseop_sitemap.php:45
+#: modules/aioseop_sitemap.php:46
 msgid "Split long sitemaps into separate files."
 msgstr "Impartiti harta site-ului mare in fisiere separate."
 
-#: modules/aioseop_sitemap.php:44
+#: modules/aioseop_sitemap.php:45
 msgid "Organize sitemap entries into distinct files in your sitemap. Enable this only if your sitemap contains over 50,000 URLs or the file is over 5MB in size."
 msgstr "Organizati intrarile in fisiere distincte in harta site-ului. Activati aceasta numai in cazul in care harta site-ului contine peste 50,000 URL-uri sau fisierul este de peste 5 MB ca marime."
 
-#: modules/aioseop_sitemap.php:43
+#: modules/aioseop_sitemap.php:44
 msgid "Notify search engines based on the selected schedule, and also update static sitemap daily if in use. (this uses WP-Cron, so make sure this is working properly on your server as well)"
 msgstr "Notifică motoarele de căutare în baza programei selectate și, de asemenea, actualizează zilnic harta sit statică, dacă este în uz. (folosește WP-Cron, așa că asigură-te că funcționează corespunzător și pe serverul tău)"
 
-#: modules/aioseop_sitemap.php:42
+#: modules/aioseop_sitemap.php:43
 msgid "Specifies the name of your sitemap file. This will default to 'sitemap'."
 msgstr "Specifică numele fișierului sitemap. Acest lucru va lipsi(implicit) la \"sitemap\"."
 
-#: modules/aioseop_sitemap.php:32
+#: modules/aioseop_sitemap.php:33
 msgid "XML Sitemap"
 msgstr "XML Harta site-ului"
 
@@ -1704,47 +1753,47 @@ msgstr "Sport"
 msgid "Activity"
 msgstr "Activitate"
 
-#: admin/aioseop_module_class.php:2555
+#: admin/aioseop_module_class.php:2563
 msgid "Update Options"
 msgstr "Actualizare opțiuni"
 
-#: admin/aioseop_module_class.php:2487
+#: admin/aioseop_module_class.php:2495
 msgid "All in One SEO Options Updated."
 msgstr "Actualizare optiuni All in One SEO"
 
-#: admin/aioseop_module_class.php:2478
+#: admin/aioseop_module_class.php:2486
 msgid "Options Reset."
 msgstr "Resetare Optiuni"
 
-#: admin/aioseop_module_class.php:2475 modules/aioseop_sitemap.php:871
+#: admin/aioseop_module_class.php:2483 modules/aioseop_sitemap.php:875
 msgid "Security Check - If you receive this in error, log out and back in to WordPress"
 msgstr "Verificare de securitate - Daca primiti eroare, delogati-va  si logati-va inapoi in WordPress"
 
-#: admin/aioseop_module_class.php:2257
+#: admin/aioseop_module_class.php:2265
 msgid "Click for Help!"
 msgstr "Dă clic pentru ajutor!"
 
-#: admin/aioseop_module_class.php:2218
+#: admin/aioseop_module_class.php:2226
 msgid " characters. Most search engines use a maximum of %s chars for the %s."
 msgstr "caractere. Cele mai multe motoare de cautare folosesc un maxim de % harti pentru %"
 
-#: admin/aioseop_module_class.php:1676
+#: admin/aioseop_module_class.php:1677
 msgid "Click here for documentation on this setting"
 msgstr "Apasa aici pentru informatii despre aceasta setare"
 
-#: modules/aioseop_importer_exporter.php:511
+#: modules/aioseop_importer_exporter.php:513
 msgid "Settings export file for All in One SEO Pack"
 msgstr "Fișier export setări pentru All in One SEO Pack"
 
-#: modules/aioseop_importer_exporter.php:463
+#: modules/aioseop_importer_exporter.php:465
 msgid "<b>Warning:</b> This following post could not be found: <b>\"%s\"</b>"
 msgstr "<b> Avertisment: </ b> Acest postare din urma nu a putut fi găsita: <b>  \"% s \" </ b>"
 
-#: modules/aioseop_importer_exporter.php:414
+#: modules/aioseop_importer_exporter.php:416
 msgid "<b>Warning:</b> Line not matched: <b>\"%s\"</b>, On Line: <b>%s</b>"
 msgstr "<b> Avertisment: </ b> Linia nu corespunde cu: <b> \"% s \" </ b>, On Line: <b>% s </ b>"
 
-#: modules/aioseop_importer_exporter.php:155
+#: modules/aioseop_importer_exporter.php:157
 msgid ""
 "You may change this by activating or deactivating\n"
 "\t\t\t\t\t\tmodules in the Feature Manager."
@@ -1752,7 +1801,7 @@ msgstr ""
 "Poți modifica acest lucru prin activarea sau dezactivarea\n"
 "→\t→\t→\t→\t→\t→\textensiilor în Administratorul funcționalități."
 
-#: modules/aioseop_importer_exporter.php:148
+#: modules/aioseop_importer_exporter.php:150
 msgid "There are no other modules currently loaded!"
 msgstr "Nu exista alte module incarcate in momentul de fata"
 
@@ -1797,102 +1846,102 @@ msgstr "Poți alege să exporți setările dintr-un modul activ și conținutul 
 msgid "Select a valid All in One SEO Pack ini file and click 'Import' to import options from a previous state or install of All in One SEO Pack.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Click here for documentation on this setting</a>"
 msgstr "Selectează un fișier ini All in One SEO Pack valid și dă clic pe 'Import' pentru a importa opțiunile de la o stare sau instalare anterioară a All in One SEO Pack.<br /><a href='https://semperplugins.com/documentation/importer-exporter-module/' target='_blank'>Dă clic aici pentru documentația despre această setare</a>"
 
-#: inc/aioseop_functions.php:816
+#: inc/aioseop_functions.php:817
 msgid "Facebook"
 msgstr "Facebook"
 
-#: inc/aioseop_functions.php:813
+#: inc/aioseop_functions.php:814
 msgid "Twitter"
 msgstr "Twitter"
 
-#: inc/aioseop_functions.php:807
+#: inc/aioseop_functions.php:808
 msgid "Google+"
 msgstr "Google+"
 
-#: inc/aioseop_functions.php:571
+#: inc/aioseop_functions.php:572
 msgid "Please refer to the document for each tool for help in using these to debug your social meta."
 msgstr "Vă rugăm să consultați documentul pentru fiecare instrument de ajutor în utilizarea acestora pentru a depana meta social."
 
-#: inc/aioseop_functions.php:561
+#: inc/aioseop_functions.php:562
 msgid "You should avoid duplicate social meta tags. You can use these free tools from Facebook and Twitter to validate your social meta and check for errors:"
 msgstr "Ar trebui să eviți duplicarea tagurilor meta socială. Poți folosi aceste instrumente gratuite de la Facebook, Google și Twitter pentru a-ți valida meta socială și verificarea erorilor:"
 
-#: inc/aioseop_functions.php:560
+#: inc/aioseop_functions.php:561
 msgid "You may prefer to use the social meta tags that are being output by the other plugin(s) or theme. If so, then you should deactivate this Social Meta feature in All in One SEO Pack Feature Manager."
 msgstr "Poate preferi să folosești taguri meta sociale care sunt produse de alt(e) modul(e) sau de o temă. În acest caz, ar trebui să dezactivezi această funcționalitate meta socială în Administrator funcționalități din All in One SEO Pack."
 
-#: inc/aioseop_functions.php:559
+#: inc/aioseop_functions.php:560
 msgid "All in One SEO Pack has detected that a plugin(s) or theme is also outputting social meta tags on your site. You can view this social meta in the source code of your site (check your browser help for instructions on how to view source code)."
 msgstr "All in One SEO Pack a detectat, de asemenea, că un modul sau tema produce taguri meta sociale pe situl tău. Poți vedea aceste taguri meta sociale în codul sursă al sitului (verifică ajutorul navigatorului pentru instrucțiuni despre cum să vizualizezi codul sursă)."
 
-#: inc/aioseop_functions.php:558
+#: inc/aioseop_functions.php:559
 msgid "What Does This Mean?"
 msgstr "Ce inseamna ?"
 
-#: inc/aioseop_functions.php:555
+#: inc/aioseop_functions.php:556
 msgid "No duplicate meta tags found."
 msgstr "Nici un duplicat meta tag gasit."
 
-#: inc/aioseop_functions.php:546
+#: inc/aioseop_functions.php:547
 msgid "Duplicate %s Meta"
 msgstr "Duplicare % Meta"
 
-#: inc/aioseop_functions.php:482
+#: inc/aioseop_functions.php:483
 msgid "Row %s not found; no rows were deleted."
 msgstr "Randul % nu a fost gasit; niciun rand nu a fost sters"
 
-#: inc/aioseop_functions.php:382
+#: inc/aioseop_functions.php:383
 msgid "Unauthorized access; try reloading the page."
 msgstr "Acces neautorizat, reincarca pagina"
 
-#: inc/aioseop_functions.php:359 inc/aioseop_functions.php:710
+#: inc/aioseop_functions.php:360 inc/aioseop_functions.php:711
 #: modules/aioseop_performance.php:205 modules/aioseop_performance.php:210
 #: modules/aioseop_performance.php:215 modules/aioseop_performance.php:224
 msgid "No"
 msgstr "Nu"
 
-#: inc/aioseop_functions.php:254
+#: inc/aioseop_functions.php:255
 msgid "Insert time"
 msgstr "Introduceti data"
 
-#: inc/aioseop_functions.php:253
+#: inc/aioseop_functions.php:254
 msgid "Revisions"
 msgstr "Revizii"
 
-#: inc/aioseop_functions.php:252
+#: inc/aioseop_functions.php:253
 msgid "Slug may not be empty!"
 msgstr "SWAG is for boys"
 
-#: inc/aioseop_functions.php:251
+#: inc/aioseop_functions.php:252
 msgid "Please wait..."
 msgstr "Te rog așteaptă..."
 
-#: inc/aioseop_functions.php:249
+#: inc/aioseop_functions.php:250
 msgid "Cancel"
 msgstr "Anulare"
 
-#: inc/aioseop_functions.php:248
+#: inc/aioseop_functions.php:249
 msgid "Save"
 msgstr "Salvează"
 
-#: inc/aioseop_functions.php:247
+#: inc/aioseop_functions.php:248
 msgid "Post"
 msgstr "Articol"
 
-#: inc/aioseop_functions.php:246 inc/aioseop_functions.php:363
-#: inc/aioseop_functions.php:714
+#: inc/aioseop_functions.php:247 inc/aioseop_functions.php:364
+#: inc/aioseop_functions.php:715
 msgid "Edit"
 msgstr "Editare"
 
-#: inc/aioseop_functions.php:176
+#: inc/aioseop_functions.php:177
 msgid "SEO Keywords"
 msgstr "Cuvinte cheie SEO"
 
-#: inc/aioseop_functions.php:174
+#: inc/aioseop_functions.php:175
 msgid "SEO Description"
 msgstr "Descriere SEO"
 
-#: inc/aioseop_functions.php:173
+#: inc/aioseop_functions.php:174
 msgid "SEO Title"
 msgstr "Titlu SEO"
 
@@ -1976,7 +2025,7 @@ msgstr "Editeaza fișierul robots.txt și fișierul .htaccess pentru a ajusta si
 
 #: modules/aioseop_feature_manager.php:41 modules/aioseop_file_editor.php:19
 msgid "File Editor"
-msgstr "Editor fisier"
+msgstr "Editor fișier"
 
 #: modules/aioseop_feature_manager.php:38
 msgid "Generate and validate your robots.txt file to guide search engines through your site."
@@ -2011,8 +2060,8 @@ msgstr "Administrator funcționalități"
 msgid "Main Settings"
 msgstr "Setari principale"
 
-#: admin/aioseop_module_class.php:2017 admin/aioseop_module_class.php:2292
-#: admin/aioseop_module_class.php:2591 aioseop_class.php:4759
+#: admin/aioseop_module_class.php:2025 admin/aioseop_module_class.php:2300
+#: admin/aioseop_module_class.php:2599 aioseop_class.php:4759
 #: aioseop_class.php:4777
 msgid "Help"
 msgstr "Ajutor"
