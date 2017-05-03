@@ -1,6 +1,8 @@
-<div id="footer">
-<h1>FOOTER</h1>
 </div>
-</div>
+	<footer>
+    	<div id="footer" href="style.css">
+			Footer
+        </div>
+	</footer>
 </body>
 </html>
