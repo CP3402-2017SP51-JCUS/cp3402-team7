@@ -893,3 +893,13 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+#colophon {
+	color: black;
+	margin: auto;
+    padding: 10px;
+	padding-bottom:50px;
+	border: 3px solid green;
+	text-align:center;
+	background-color:white;
+}
