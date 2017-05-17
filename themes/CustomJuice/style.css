@@ -108,4 +108,41 @@ a:visited {
   background-color: lightgreen;
 }
 
+.wp_cart_product_display_box{
+border: 1px solid #E8E5DC;
+box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.2);
+margin-bottom: 25px;
+padding-bottom: 5px;
+width:300px;
+max-width: 250px;
+float: left;
+margin-right: 10px;
+}
+.wp_cart_product_thumbnail img{
+max-width:100%;
+}
+.wp_cart_product_display_bottom{
+padding:10px 15px;
+}
+.wp_cart_product_name{
+color: #525351;
+font-size: 16px;
+font-weight: bold;
+line-height: 20px;
+margin: 0 0 10px 0;
+text-transform:uppercase;
+}
+.wp_cart_product_description{
+font-style:italic;
+}
+.wp_cart_product_price{
+color: #525351;
+display: block;
+font-size: 22px;
+font-weight: bold;
+line-height: 24px;
+margin: 0;
+padding: 10px 10px 10px 0;
+}
+
 >>>>>>> origin/master
