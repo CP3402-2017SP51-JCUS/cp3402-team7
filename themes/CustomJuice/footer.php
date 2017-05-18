@@ -1,28 +1,21 @@
 </div>
 	<footer>
-    	<div id="footer">
+  <div id="footer">
 		<div id="left">
-		<div>
-		WP
-		</div>
 		<br>
-		About Us
+		Fresh Juice Singapore © 2017
+		</div>
+		<div id="right">
+		<br>
+		<a href="<?php echo wordpress/about-us;?>"> About Us </a>
 		<br>
 		Contact Us
 		<br>
-		Terms of Service
+		Products
 		<br>
-		Private Policy
+		Terms and Conditions
 		</div>
-		<div id="right">
-		<div>
-		Articles
-		</div>
-		</div>
-<div id="btm">
-Proudly powered by WordPress
-</div>
-        </div>
+  </div>
 	</footer>
 </body>
 </html>

@@ -1,15 +1,22 @@
 @import "nav-bar.css";
-body { text-align: center;}
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
 #wrapper { display: block; border: 1px #a2a2a2 solid; width:100%; margin:0px auto; }
 #header
 {
 	background-color: powderblue;
-	font:  normal 100% Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 0.1em;
 	margin: 0;
 	padding: 5px 5px 5px 5px;
 }
-#content { width: 75%; border: 2px #a2a2a2 solid; float: left; }
+#content {
+	font-family: 'Montserrat', sans-serif;
+	width: 75%; border: 2px #a2a2a2 solid; float: left;
+}
 #sidebar { width: 23%; border: 2px #a2a2a2 solid; float: right; }
 #delimiter { clear: both; }
 #footer {
@@ -19,11 +26,10 @@ body { text-align: center;}
     position: absolute;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 40%;
+    height: 20%;
     padding: 20px;
     text-align: center;
-	overflow: hidden;
+	  overflow: hidden;
 }
 #left{
 	    float: left;
@@ -38,6 +44,11 @@ body { text-align: center;}
 	bottom:0;
 	left:45%;
 }
+
+.custom_p{
+	color: red;
+}
+
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
 <<<<<<< HEAD
 =======
